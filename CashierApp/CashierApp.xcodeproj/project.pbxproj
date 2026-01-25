@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E7B010E2C1F6001009E1A8E /* CashierAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B010B2C1F6001009E1A8E /* CashierAppApp.swift */; };
+		4E7B010F2C1F6001009E1A8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B010C2C1F6001009E1A8E /* ContentView.swift */; };
+		4E7B01102C1F6001009E1A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7B010D2C1F6001009E1A8E /* Assets.xcassets */; };
+		4E7B01152C1F6020009E1A8E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01112C1F6020009E1A8E /* Product.swift */; };
+		4E7B01162C1F6020009E1A8E /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01122C1F6020009E1A8E /* CartItem.swift */; };
+		4E7B01172C1F6020009E1A8E /* Decimal+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01132C1F6020009E1A8E /* Decimal+Extensions.swift */; };
+		4E7B01182C1F6020009E1A8E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01142C1F6020009E1A8E /* ProductRow.swift */; };
+		4E7B011C2C1F606B009E1A8E /* CartItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01192C1F606B009E1A8E /* CartItemRow.swift */; };
+		4E7B011D2C1F606B009E1A8E /* CheckoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B011A2C1F606B009E1A8E /* CheckoutSummaryView.swift */; };
+		4E7B011E2C1F606B009E1A8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7B011B2C1F606B009E1A8E /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E7B01082C1F6001009E1A8E /* CashierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CashierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7B010B2C1F6001009E1A8E /* CashierAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierAppApp.swift; sourceTree = "<group>"; };
+		4E7B010C2C1F6001009E1A8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E7B010D2C1F6001009E1A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E7B01112C1F6020009E1A8E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4E7B01122C1F6020009E1A8E /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		4E7B01132C1F6020009E1A8E /* Decimal+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Extensions.swift"; sourceTree = "<group>"; };
+		4E7B01142C1F6020009E1A8E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		4E7B01192C1F606B009E1A8E /* CartItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemRow.swift; sourceTree = "<group>"; };
+		4E7B011A2C1F606B009E1A8E /* CheckoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutSummaryView.swift; sourceTree = "<group>"; };
+		4E7B011B2C1F606B009E1A8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4E7B00FF2C1F6001009E1A8E = {
+			isa = PBXGroup;
+			children = (
+				4E7B010A2C1F6001009E1A8E /* CashierApp */,
+				4E7B01092C1F6001009E1A8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E7B01092C1F6001009E1A8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7B01082C1F6001009E1A8E /* CashierApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7B010A2C1F6001009E1A8E /* CashierApp */ = {
+			isa = PBXGroup;
+			children = (
+				4E7B010B2C1F6001009E1A8E /* CashierAppApp.swift */,
+				4E7B010C2C1F6001009E1A8E /* ContentView.swift */,
+				4E7B011F2C1F60E4009E1A8E /* Models */,
+				4E7B01202C1F60E4009E1A8E /* Views */,
+				4E7B010D2C1F6001009E1A8E /* Assets.xcassets */,
+				4E7B011B2C1F606B009E1A8E /* Preview Assets.xcassets */,
+			);
+			path = CashierApp;
+			sourceTree = "<group>";
+		};
+		4E7B011F2C1F60E4009E1A8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E7B01112C1F6020009E1A8E /* Product.swift */,
+				4E7B01122C1F6020009E1A8E /* CartItem.swift */,
+				4E7B01132C1F6020009E1A8E /* Decimal+Extensions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E7B01202C1F60E4009E1A8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E7B01142C1F6020009E1A8E /* ProductRow.swift */,
+				4E7B01192C1F606B009E1A8E /* CartItemRow.swift */,
+				4E7B011A2C1F606B009E1A8E /* CheckoutSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7B01072C1F6001009E1A8E /* CashierApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7B01212C1F7001009E1A8E /* Build configuration list for PBXNativeTarget "CashierApp" */;
+			buildPhases = (
+				4E7B01042C1F6001009E1A8E /* Sources */,
+				4E7B01052C1F6001009E1A8E /* Frameworks */,
+				4E7B01062C1F6001009E1A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashierApp;
+			productName = CashierApp;
+			productReference = 4E7B01082C1F6001009E1A8E /* CashierApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E7B01002C1F6001009E1A8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4E7B01072C1F6001009E1A8E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4E7B01032C1F6001009E1A8E /* Build configuration list for PBXProject "CashierApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E7B00FF2C1F6001009E1A8E;
+			productRefGroup = 4E7B01092C1F6001009E1A8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E7B01072C1F6001009E1A8E /* CashierApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E7B01062C1F6001009E1A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7B01102C1F6001009E1A8E /* Assets.xcassets in Resources */,
+				4E7B011E2C1F606B009E1A8E /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E7B01042C1F6001009E1A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7B010E2C1F6001009E1A8E /* CashierAppApp.swift in Sources */,
+				4E7B010F2C1F6001009E1A8E /* ContentView.swift in Sources */,
+				4E7B01152C1F6020009E1A8E /* Product.swift in Sources */,
+				4E7B01162C1F6020009E1A8E /* CartItem.swift in Sources */,
+				4E7B01172C1F6020009E1A8E /* Decimal+Extensions.swift in Sources */,
+				4E7B01182C1F6020009E1A8E /* ProductRow.swift in Sources */,
+				4E7B011C2C1F606B009E1A8E /* CartItemRow.swift in Sources */,
+				4E7B011D2C1F606B009E1A8E /* CheckoutSummaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E7B01052C1F6001009E1A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E7B01102C1F6001009E1A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E7B01112C1F6001009E1A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E7B01122C1F6001009E1A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E7B01132C1F6001009E1A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashierApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E7B01032C1F6001009E1A8E /* Build configuration list for PBXProject "CashierApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7B01102C1F6001009E1A8E /* Debug */,
+				4E7B01112C1F6001009E1A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7B01212C1F7001009E1A8E /* Build configuration list for PBXNativeTarget "CashierApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7B01122C1F6001009E1A8E /* Debug */,
+				4E7B01132C1F6001009E1A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E7B01002C1F6001009E1A8E /* Project object */;
+}
