@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct CheckoutSummaryView: View {
     let subtotal: Decimal
