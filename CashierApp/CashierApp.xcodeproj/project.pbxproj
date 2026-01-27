@@ -7,78 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E7B010E2C1F6001009E1A8E /* CashierAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B010B2C1F6001009E1A8E /* CashierAppApp.swift */; };
-		4E7B010F2C1F6001009E1A8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B010C2C1F6001009E1A8E /* ContentView.swift */; };
-		4E7B01102C1F6001009E1A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7B010D2C1F6001009E1A8E /* Assets.xcassets */; };
-		4E7B01152C1F6020009E1A8E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01112C1F6020009E1A8E /* Product.swift */; };
-		4E7B01162C1F6020009E1A8E /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01122C1F6020009E1A8E /* CartItem.swift */; };
-		4E7B01172C1F6020009E1A8E /* Decimal+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01132C1F6020009E1A8E /* Decimal+Extensions.swift */; };
-		4E7B01182C1F6020009E1A8E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01142C1F6020009E1A8E /* ProductRow.swift */; };
-		4E7B011C2C1F606B009E1A8E /* CartItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B01192C1F606B009E1A8E /* CartItemRow.swift */; };
-		4E7B011D2C1F606B009E1A8E /* CheckoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B011A2C1F606B009E1A8E /* CheckoutSummaryView.swift */; };
-		4E7B011E2C1F606B009E1A8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7B011B2C1F606B009E1A8E /* Preview Assets.xcassets */; };
+		1A2B3C4D5E6F000000000020 /* CashierAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000010 /* CashierAppApp.swift */; };
+		1A2B3C4D5E6F000000000021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000011 /* ContentView.swift */; };
+		1A2B3C4D5E6F000000000022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000012 /* Assets.xcassets */; };
+		1A2B3C4D5E6F000000000023 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000013 /* Product.swift */; };
+		1A2B3C4D5E6F000000000024 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000014 /* CartItem.swift */; };
+		1A2B3C4D5E6F000000000025 /* Decimal+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000015 /* Decimal+Extensions.swift */; };
+		1A2B3C4D5E6F000000000026 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000016 /* ProductRow.swift */; };
+		1A2B3C4D5E6F000000000027 /* CartItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000017 /* CartItemRow.swift */; };
+		1A2B3C4D5E6F000000000028 /* CheckoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000018 /* CheckoutSummaryView.swift */; };
+		1A2B3C4D5E6F000000000029 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000019 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E7B01082C1F6001009E1A8E /* CashierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CashierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E7B010B2C1F6001009E1A8E /* CashierAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierAppApp.swift; sourceTree = "<group>"; };
-		4E7B010C2C1F6001009E1A8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4E7B010D2C1F6001009E1A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4E7B01112C1F6020009E1A8E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		4E7B01122C1F6020009E1A8E /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
-		4E7B01132C1F6020009E1A8E /* Decimal+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Extensions.swift"; sourceTree = "<group>"; };
-		4E7B01142C1F6020009E1A8E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
-		4E7B01192C1F606B009E1A8E /* CartItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemRow.swift; sourceTree = "<group>"; };
-		4E7B011A2C1F606B009E1A8E /* CheckoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutSummaryView.swift; sourceTree = "<group>"; };
-		4E7B011B2C1F606B009E1A8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000005 /* CashierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CashierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2B3C4D5E6F000000000010 /* CashierAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierAppApp.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000013 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000014 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000015 /* Decimal+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Extensions.swift"; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000016 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000017 /* CartItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemRow.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000018 /* CheckoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutSummaryView.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		4E7B00FF2C1F6001009E1A8E = {
+		1A2B3C4D5E6F000000000002 = {
 			isa = PBXGroup;
 			children = (
-				4E7B010A2C1F6001009E1A8E /* CashierApp */,
-				4E7B01092C1F6001009E1A8E /* Products */,
+				1A2B3C4D5E6F000000000030 /* CashierApp */,
+				1A2B3C4D5E6F000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4E7B01092C1F6001009E1A8E /* Products */ = {
+		1A2B3C4D5E6F000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E7B01082C1F6001009E1A8E /* CashierApp.app */,
+				1A2B3C4D5E6F000000000005 /* CashierApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E7B010A2C1F6001009E1A8E /* CashierApp */ = {
+		1A2B3C4D5E6F000000000030 /* CashierApp */ = {
 			isa = PBXGroup;
 			children = (
-				4E7B010B2C1F6001009E1A8E /* CashierAppApp.swift */,
-				4E7B010C2C1F6001009E1A8E /* ContentView.swift */,
-				4E7B011F2C1F60E4009E1A8E /* Models */,
-				4E7B01202C1F60E4009E1A8E /* Views */,
-				4E7B010D2C1F6001009E1A8E /* Assets.xcassets */,
-				4E7B011B2C1F606B009E1A8E /* Preview Assets.xcassets */,
+				1A2B3C4D5E6F000000000010 /* CashierAppApp.swift */,
+				1A2B3C4D5E6F000000000011 /* ContentView.swift */,
+				1A2B3C4D5E6F000000000031 /* Models */,
+				1A2B3C4D5E6F000000000032 /* Views */,
+				1A2B3C4D5E6F000000000012 /* Assets.xcassets */,
+				1A2B3C4D5E6F000000000019 /* Preview Assets.xcassets */,
 			);
 			path = CashierApp;
 			sourceTree = "<group>";
 		};
-		4E7B011F2C1F60E4009E1A8E /* Models */ = {
+		1A2B3C4D5E6F000000000031 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4E7B01112C1F6020009E1A8E /* Product.swift */,
-				4E7B01122C1F6020009E1A8E /* CartItem.swift */,
-				4E7B01132C1F6020009E1A8E /* Decimal+Extensions.swift */,
+				1A2B3C4D5E6F000000000013 /* Product.swift */,
+				1A2B3C4D5E6F000000000014 /* CartItem.swift */,
+				1A2B3C4D5E6F000000000015 /* Decimal+Extensions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		4E7B01202C1F60E4009E1A8E /* Views */ = {
+		1A2B3C4D5E6F000000000032 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4E7B01142C1F6020009E1A8E /* ProductRow.swift */,
-				4E7B01192C1F606B009E1A8E /* CartItemRow.swift */,
-				4E7B011A2C1F606B009E1A8E /* CheckoutSummaryView.swift */,
+				1A2B3C4D5E6F000000000016 /* ProductRow.swift */,
+				1A2B3C4D5E6F000000000017 /* CartItemRow.swift */,
+				1A2B3C4D5E6F000000000018 /* CheckoutSummaryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -86,13 +86,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E7B01072C1F6001009E1A8E /* CashierApp */ = {
+		1A2B3C4D5E6F000000000004 /* CashierApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E7B01212C1F7001009E1A8E /* Build configuration list for PBXNativeTarget "CashierApp" */;
+			buildConfigurationList = 1A2B3C4D5E6F00000000000A /* Build configuration list for PBXNativeTarget "CashierApp" */;
 			buildPhases = (
-				4E7B01042C1F6001009E1A8E /* Sources */,
-				4E7B01052C1F6001009E1A8E /* Frameworks */,
-				4E7B01062C1F6001009E1A8E /* Resources */,
+				1A2B3C4D5E6F000000000006 /* Sources */,
+				1A2B3C4D5E6F000000000007 /* Frameworks */,
+				1A2B3C4D5E6F000000000008 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -100,73 +100,73 @@
 			);
 			name = CashierApp;
 			productName = CashierApp;
-			productReference = 4E7B01082C1F6001009E1A8E /* CashierApp.app */;
+			productReference = 1A2B3C4D5E6F000000000005 /* CashierApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4E7B01002C1F6001009E1A8E /* Project object */ = {
+		1A2B3C4D5E6F000000000001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					4E7B01072C1F6001009E1A8E = {
+					1A2B3C4D5E6F000000000004 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 4E7B01032C1F6001009E1A8E /* Build configuration list for PBXProject "CashierApp" */;
+			buildConfigurationList = 1A2B3C4D5E6F000000000009 /* Build configuration list for PBXProject "CashierApp" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4E7B00FF2C1F6001009E1A8E;
-			productRefGroup = 4E7B01092C1F6001009E1A8E /* Products */;
+			mainGroup = 1A2B3C4D5E6F000000000002;
+			productRefGroup = 1A2B3C4D5E6F000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E7B01072C1F6001009E1A8E /* CashierApp */,
+				1A2B3C4D5E6F000000000004 /* CashierApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E7B01062C1F6001009E1A8E /* Resources */ = {
+		1A2B3C4D5E6F000000000008 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7B01102C1F6001009E1A8E /* Assets.xcassets in Resources */,
-				4E7B011E2C1F606B009E1A8E /* Preview Assets.xcassets in Resources */,
+				1A2B3C4D5E6F000000000022 /* Assets.xcassets in Resources */,
+				1A2B3C4D5E6F000000000029 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E7B01042C1F6001009E1A8E /* Sources */ = {
+		1A2B3C4D5E6F000000000006 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7B010E2C1F6001009E1A8E /* CashierAppApp.swift in Sources */,
-				4E7B010F2C1F6001009E1A8E /* ContentView.swift in Sources */,
-				4E7B01152C1F6020009E1A8E /* Product.swift in Sources */,
-				4E7B01162C1F6020009E1A8E /* CartItem.swift in Sources */,
-				4E7B01172C1F6020009E1A8E /* Decimal+Extensions.swift in Sources */,
-				4E7B01182C1F6020009E1A8E /* ProductRow.swift in Sources */,
-				4E7B011C2C1F606B009E1A8E /* CartItemRow.swift in Sources */,
-				4E7B011D2C1F606B009E1A8E /* CheckoutSummaryView.swift in Sources */,
+				1A2B3C4D5E6F000000000020 /* CashierAppApp.swift in Sources */,
+				1A2B3C4D5E6F000000000021 /* ContentView.swift in Sources */,
+				1A2B3C4D5E6F000000000023 /* Product.swift in Sources */,
+				1A2B3C4D5E6F000000000024 /* CartItem.swift in Sources */,
+				1A2B3C4D5E6F000000000025 /* Decimal+Extensions.swift in Sources */,
+				1A2B3C4D5E6F000000000026 /* ProductRow.swift in Sources */,
+				1A2B3C4D5E6F000000000027 /* CartItemRow.swift in Sources */,
+				1A2B3C4D5E6F000000000028 /* CheckoutSummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E7B01052C1F6001009E1A8E /* Frameworks */ = {
+		1A2B3C4D5E6F000000000007 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -176,7 +176,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4E7B01102C1F6001009E1A8E /* Debug */ = {
+		1A2B3C4D5E6F00000000000B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		4E7B01112C1F6001009E1A8E /* Release */ = {
+		1A2B3C4D5E6F00000000000C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +288,7 @@
 			};
 			name = Release;
 		};
-		4E7B01122C1F6001009E1A8E /* Debug */ = {
+		1A2B3C4D5E6F00000000000D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -305,7 +305,7 @@
 			};
 			name = Debug;
 		};
-		4E7B01132C1F6001009E1A8E /* Release */ = {
+		1A2B3C4D5E6F00000000000E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E7B01032C1F6001009E1A8E /* Build configuration list for PBXProject "CashierApp" */ = {
+		1A2B3C4D5E6F000000000009 /* Build configuration list for PBXProject "CashierApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7B01102C1F6001009E1A8E /* Debug */,
-				4E7B01112C1F6001009E1A8E /* Release */,
+				1A2B3C4D5E6F00000000000B /* Debug */,
+				1A2B3C4D5E6F00000000000C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E7B01212C1F7001009E1A8E /* Build configuration list for PBXNativeTarget "CashierApp" */ = {
+		1A2B3C4D5E6F00000000000A /* Build configuration list for PBXNativeTarget "CashierApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7B01122C1F6001009E1A8E /* Debug */,
-				4E7B01132C1F6001009E1A8E /* Release */,
+				1A2B3C4D5E6F00000000000D /* Debug */,
+				1A2B3C4D5E6F00000000000E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4E7B01002C1F6001009E1A8E /* Project object */;
+	rootObject = 1A2B3C4D5E6F000000000001 /* Project object */;
 }
