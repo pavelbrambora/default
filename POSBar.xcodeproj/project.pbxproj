@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F60718293A4B5C /* POSBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B5B /* POSBarApp.swift */; };
+		A1B2C3D4E5F60718293A4B5D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B5E /* CoreDataManager.swift */; };
+		A1B2C3D4E5F60718293A4B5F /* POSBar.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B60 /* POSBar.xcdatamodeld */; };
+		A1B2C3D4E5F60718293A4B61 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B62 /* Product.swift */; };
+		A1B2C3D4E5F60718293A4B63 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B64 /* Order.swift */; };
+		A1B2C3D4E5F60718293A4B65 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B66 /* OrderItem.swift */; };
+		A1B2C3D4E5F60718293A4B67 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B68 /* Table.swift */; };
+		A1B2C3D4E5F60718293A4B69 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B6A /* OrderViewModel.swift */; };
+		A1B2C3D4E5F60718293A4B6B /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B6C /* PaymentViewModel.swift */; };
+		A1B2C3D4E5F60718293A4B6D /* ProductCatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B6E /* ProductCatalogViewModel.swift */; };
+		A1B2C3D4E5F60718293A4B6F /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B70 /* OrderDetailView.swift */; };
+		A1B2C3D4E5F60718293A4B71 /* POSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B72 /* POSView.swift */; };
+		A1B2C3D4E5F60718293A4B73 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B74 /* PaymentView.swift */; };
+		A1B2C3D4E5F60718293A4B75 /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B76 /* ProductGridView.swift */; };
+		A1B2C3D4E5F60718293A4B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B78 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D4E5F60718293A4B50 /* POSBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = POSBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F60718293A4B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = POSBar/Resources/Info.plist; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B5B /* POSBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/App/POSBarApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B5E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Models/CoreData/CoreDataManager.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B60 /* POSBar.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; path = POSBar/Models/CoreData/POSBar.xcdatamodeld; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B62 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Models/Entities/Product.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B64 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Models/Entities/Order.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B66 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Models/Entities/OrderItem.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B68 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Models/Entities/Table.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B6A /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/ViewModels/OrderViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B6C /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/ViewModels/PaymentViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B6E /* ProductCatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/ViewModels/ProductCatalogViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B70 /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Views/POS/OrderDetailView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B72 /* POSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Views/POS/POSView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B74 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Views/POS/PaymentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B76 /* ProductGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSBar/Views/POS/ProductGridView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = POSBar/Resources/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4E5F60718293A4B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D4E5F60718293A4B53 /* POSBar */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B79 /* App */,
+				A1B2C3D4E5F60718293A4B7A /* Models */,
+				A1B2C3D4E5F60718293A4B7B /* ViewModels */,
+				A1B2C3D4E5F60718293A4B7C /* Views */,
+				A1B2C3D4E5F60718293A4B7D /* Resources */,
+				A1B2C3D4E5F60718293A4B50 /* POSBar.app */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B79 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B5B /* POSBarApp.swift */,
+			);
+			path = POSBar/App;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B7E /* CoreData */,
+				A1B2C3D4E5F60718293A4B7F /* Entities */,
+			);
+			path = POSBar/Models;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B7E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B5E /* CoreDataManager.swift */,
+				A1B2C3D4E5F60718293A4B60 /* POSBar.xcdatamodeld */,
+			);
+			path = POSBar/Models/CoreData;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B7F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B62 /* Product.swift */,
+				A1B2C3D4E5F60718293A4B64 /* Order.swift */,
+				A1B2C3D4E5F60718293A4B66 /* OrderItem.swift */,
+				A1B2C3D4E5F60718293A4B68 /* Table.swift */,
+			);
+			path = POSBar/Models/Entities;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B7B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B6A /* OrderViewModel.swift */,
+				A1B2C3D4E5F60718293A4B6C /* PaymentViewModel.swift */,
+				A1B2C3D4E5F60718293A4B6E /* ProductCatalogViewModel.swift */,
+			);
+			path = POSBar/ViewModels;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B80 /* POS */,
+			);
+			path = POSBar/Views;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B80 /* POS */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B70 /* OrderDetailView.swift */,
+				A1B2C3D4E5F60718293A4B72 /* POSView.swift */,
+				A1B2C3D4E5F60718293A4B74 /* PaymentView.swift */,
+				A1B2C3D4E5F60718293A4B76 /* ProductGridView.swift */,
+			);
+			path = POSBar/Views/POS;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B78 /* Assets.xcassets */,
+				A1B2C3D4E5F60718293A4B5A /* Info.plist */,
+			);
+			path = POSBar/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D4E5F60718293A4B51 /* POSBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F60718293A4B56 /* Build configuration list for PBXNativeTarget "POSBar" */;
+			buildPhases = (
+				A1B2C3D4E5F60718293A4B54 /* Sources */,
+				A1B2C3D4E5F60718293A4B52 /* Frameworks */,
+				A1B2C3D4E5F60718293A4B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSBar;
+			productName = POSBar;
+			productReference = A1B2C3D4E5F60718293A4B50 /* POSBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D4E5F60718293A4B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1B2C3D4E5F60718293A4B51 = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3D4E5F60718293A4B59 /* Build configuration list for PBXProject "POSBar" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D4E5F60718293A4B53 /* POSBar */;
+			productRefGroup = A1B2C3D4E5F60718293A4B53 /* POSBar */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D4E5F60718293A4B51 /* POSBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4E5F60718293A4B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B5F /* POSBar.xcdatamodeld in Resources */,
+				A1B2C3D4E5F60718293A4B77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D4E5F60718293A4B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B5C /* POSBarApp.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5D /* CoreDataManager.swift in Sources */,
+				A1B2C3D4E5F60718293A4B61 /* Product.swift in Sources */,
+				A1B2C3D4E5F60718293A4B63 /* Order.swift in Sources */,
+				A1B2C3D4E5F60718293A4B65 /* OrderItem.swift in Sources */,
+				A1B2C3D4E5F60718293A4B67 /* Table.swift in Sources */,
+				A1B2C3D4E5F60718293A4B69 /* OrderViewModel.swift in Sources */,
+				A1B2C3D4E5F60718293A4B6B /* PaymentViewModel.swift in Sources */,
+				A1B2C3D4E5F60718293A4B6D /* ProductCatalogViewModel.swift in Sources */,
+				A1B2C3D4E5F60718293A4B6F /* OrderDetailView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B71 /* POSView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B73 /* PaymentView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B75 /* ProductGridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D4E5F60718293A4B57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = POSBar/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.POSBar;
+				PRODUCT_NAME = POSBar;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F60718293A4B57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = POSBar/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.POSBar;
+				PRODUCT_NAME = POSBar;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B2C3D4E5F60718293A4B58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F60718293A4B58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D4E5F60718293A4B56 /* Build configuration list for PBXNativeTarget "POSBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F60718293A4B57A /* Debug */,
+				A1B2C3D4E5F60718293A4B57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1B2C3D4E5F60718293A4B59 /* Build configuration list for PBXProject "POSBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F60718293A4B58A /* Debug */,
+				A1B2C3D4E5F60718293A4B58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B2C3D4E5F60718293A4B57 /* Project object */;
+}
